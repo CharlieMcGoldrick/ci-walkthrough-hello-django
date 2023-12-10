@@ -19,6 +19,6 @@ from todo.views import get_todo_list
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    #Empty string returns the homepagge
+    # Empty string returns the homepagge
     path('', get_todo_list, name='home')
 ]
