@@ -29,7 +29,7 @@ SECRET_KEY = [env.SECRET_KEY]
 DEBUG = [env.DEBUG]
 
 # Allowed hosts
-ALLOWED_HOSTS = [env.ALLOWED_HOST]
+ALLOWED_HOSTS = [https://ci-walkthrough-hello-django-c3c355d3169d.herokuapp.com/]
 
 
 # Application definition
